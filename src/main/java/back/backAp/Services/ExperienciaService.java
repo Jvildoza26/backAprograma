@@ -1,6 +1,7 @@
 package back.backAp.Services;
 
 import back.backAp.Entity.Experiencia;
+import back.backAp.Repository.ExperienciaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

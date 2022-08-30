@@ -1,6 +1,8 @@
 package back.backAp.Services;
 
 import back.backAp.Entity.Persona;
+import back.backAp.Exception.UserNotFoundException;
+import back.backAp.Repository.PersonaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

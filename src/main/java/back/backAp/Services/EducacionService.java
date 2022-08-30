@@ -1,6 +1,7 @@
 package back.backAp.Services;
 
 import back.backAp.Entity.Educacion;
+import back.backAp.Repository.EducacionRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
